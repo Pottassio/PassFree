@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+header {
+  align-items: center;
+  padding: 20px 30px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+header ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+header ul li a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s;
+}
+header ul li a:hover {
+  color: aqua;
+}
+section {
+  width: 100%;
+  height: 80vh;
+}
+.welcome {
+  max-width: 400px;
+}
+.welcome h1 {
+  padding: 50px 50px;
+  font-size: 40px;
+}
+.welcome p {
+  padding: 0 0 0 50px;
+}
+.button {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.button button {
+  border-radius: 50px;
+  background: transparent;
+  width: 100px;
+  padding: 6px 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.button button:hover {
+  background: rgb(253, 82, 82);
+}
+.navbar {
+  position: absolute;
+  top: 230px;
+  right: 30px;
+  width: 50px;
+  height: 30vh;
+}
+.social-links img {
+  cursor: pointer;
+  width: 30px;
+  margin-top: 20px;
+}
+.imagem {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+}
+.imagem img {
+  width: 550px;
+}
